@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-deploy
+  namespace: wave2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-cont
+  template:
+    metadata:
+      labels:
+        app: my-cont
+    spec:
+      containers:
+        - name: my-cont
+          image: nginx
