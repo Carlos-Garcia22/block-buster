@@ -15,4 +15,4 @@ spec:
     spec:
       containers:
         - name: my-cont
-          image: busybox
+          image: ngnix
