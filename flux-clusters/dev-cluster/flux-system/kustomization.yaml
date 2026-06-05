@@ -4,3 +4,4 @@ resources:
 - gotk-components.yaml
 - gotk-sync.yaml
 - my-deploy.yaml
+- pod-get_role.yaml
